@@ -14,6 +14,7 @@
     "url": "git://github.com/endpoints/tutorial.git"
   },
   "dependencies": {
+    "bookshelf": "^0.7.9",
     "express": "^4.12.2",
     "fantasy-database": "^1.1.0",
     "knex": "^0.7.6",
