@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "bookshelf": "^0.7.9",
+    "endpoints": "git://github.com/endpoints/endpoints.git",
     "express": "^4.12.2",
     "fantasy-database": "^1.1.0",
     "knex": "^0.7.6",

@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 
-app.get('/', function(req,res){
-  res.send('hello Express!');
-});
+var Author = require('./modules/authors/controller');
+
+app.get('/', Author.read());
 
 module.exports = app;
